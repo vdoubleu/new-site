@@ -1,0 +1,63 @@
+@font-face {
+  font-family: 'Inter';
+  font-style: medium;
+  font-weight: 500;
+  src: url('/font/inter-medium.woff') format('woff');
+}
+
+main {
+  font-family: 'Inter', sans-serif;
+  font-style: medium;
+  font-weight: 500;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.triangle {
+  z-index: -1;
+  width: 0;
+  height: 0;
+  border-right: 50vh solid transparent;
+  border-top: 50vh solid #B8CCD9;
+}
+
+.triangle-bottom {
+  z-index: -1;
+  width: 0;
+  height: 0;
+  border-right: 50vh solid transparent;
+  border-bottom: 50vh solid #B8CCD9;
+}
+
+.triangle-bottom-height {
+  margin-top: -50vh;
+}
+
+/* if screen size is less than 768px */
+@media (max-width: 768px) {
+  .triangle{
+    z-index: -1;
+    width: 0;
+    height: 0;
+    border-right: 30vh solid transparent;
+    border-top: 30vh solid #B8CCD9;
+  }
+
+  .triangle-bottom {
+    z-index: -1;
+    width: 0;
+    height: 0;
+    border-right: 30vh solid transparent;
+    border-bottom: 30vh solid #B8CCD9;
+  }
+
+  .triangle-bottom-height {
+    margin-top: -30vh;
+  }
+}
+
+.blue-hue {
+  filter: opacity(0.5) drop-shadow(0 0 0  #B8CCD9);
+}
