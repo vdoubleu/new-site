@@ -29,10 +29,10 @@ export default function Home() {
 
         <div className="min-h-[100vh] relative snap-start">
           <div className="rotate-90 float-right triangle absolute right-0"></div>
-          <div className="px-2 md:px-52">
-            <div className="mb-10 pt-10 md:pt-48"> 
+          <div className="px-2 md:px-32 min-h-[100vh] flex flex-col md:justify-center">
+            <div className="mb-10 pt-10 md:pt-0"> 
               <h4 className="text-center text-4xl mb-4"> Hey! I'm Victor. </h4>
-              <p className="text-center text-xl md:text-3xl"> I'm a computer science student currently working as an intern at Repl.it! </p>
+              <p className="text-center text-xl mb-4 md:text-3xl"> I'm a computer science student currently working as an intern at Repl.it! </p>
               <p className="text-center text-xl md:text-3xl mb-4"> I enjoy messing around with all sorts of cool tech from compilers and AI, to building out awesome looking applications. Feel free to check out my socials or my resume below to see what I can do for you 😊 </p>
               <div className="w-full flex items-center justify-center">
                 <div className="mx-5 blue-hue cursor-pointer">
@@ -58,9 +58,7 @@ export default function Home() {
                 </div>
               </div>
             </div>  
-
-
-            <div className="">
+            <div className="mb-10">
               <p className="text-center text-xl md:text-3xl mb-4">
                 In my free time, I like to make music, speed cube, watch anime, mountain bike, and mess around with cool tech.
               </p>
