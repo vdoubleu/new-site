@@ -29,8 +29,8 @@ export default function Home() {
 
         <div className="min-h-[100vh] relative snap-start">
           <div className="rotate-90 float-right triangle absolute right-0"></div>
-          <div className="px-2 md:px-32">
-            <div className="mb-10 pt-10 md:pt-28"> 
+          <div className="px-2 md:px-52">
+            <div className="mb-10 pt-10 md:pt-48"> 
               <h4 className="text-center text-4xl mb-4"> Hey! I'm Victor. </h4>
               <p className="text-center text-xl md:text-3xl"> I'm a computer science student currently working as an intern at Repl.it! </p>
               <p className="text-center text-xl md:text-3xl mb-4"> I enjoy messing around with all sorts of cool tech from compilers and AI, to building out awesome looking applications. Feel free to check out my socials or my resume below to see what I can do for you 😊 </p>
@@ -77,8 +77,6 @@ export default function Home() {
           <div className="triangle-bottom absolute bottom-0 "></div>
         </div>
       </main>
-
-    {/*<div className="left-0 relative triangle-bottom triangle-bottom-height"></div>*/}
     </>
   );
 }
