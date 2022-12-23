@@ -20,7 +20,7 @@ export default function Home() {
             
             <div className="m-2 flex justify-center flex-col">
               <h1 className="text-8xl text-center md:text-left"> Hello </h1>
-              <h2 className="text-4xl text-center md:text-left"> Welcome to the future </h2>
+              <h2 className="text-4xl text-center md:text-left"> Welcome to my page </h2>
             </div>
           </div>
           <div className="rotate-180 right-0 triangle absolute bottom-0"></div>
@@ -32,7 +32,7 @@ export default function Home() {
           <div className="px-2 md:px-32 min-h-[100vh] flex flex-col md:justify-center">
             <div className="mb-10 pt-10 md:pt-0"> 
               <h4 className="text-center text-4xl mb-4"> Hey! I'm Victor. </h4>
-              <p className="text-center text-xl mb-4 md:text-3xl"> I'm a computer science student currently working as an intern at Repl.it! </p>
+              <p className="text-center text-xl mb-4 md:text-3xl"> I'm a computer science student currently looking for their next internship! </p>
               <p className="text-center text-xl md:text-3xl mb-4"> I enjoy messing around with all sorts of cool tech from compilers and AI, to building out awesome looking applications. Feel free to check out my socials or my resume below to see what I can do for you 😊 </p>
               <div className="w-full flex items-center justify-center">
                 <div className="mx-5 blue-hue cursor-pointer">
